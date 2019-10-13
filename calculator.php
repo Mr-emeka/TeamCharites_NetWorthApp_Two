@@ -35,7 +35,7 @@
                         <a class="nav-link" href="index.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT</a>
+                        <a class="nav-link" href="about.php">ABOUT</a>
                     </li>
                     <li class="nav-item">
 						<a class="nav-link" href="howto.html">TIPS</a>
