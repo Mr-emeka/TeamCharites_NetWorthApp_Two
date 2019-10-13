@@ -23,6 +23,7 @@
 
 <body>
 
+
 <nav class="navbar navbar-expand-md text-white navbar-light">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="css/img/nav.png" id='logo' alt="Brand"></a>
@@ -42,15 +43,14 @@
 					</li>
                     <li class="nav-item">
 						<a class="nav-link" href="FAQ.html">FAQ</a>
-					</li>               
+					</li>                                    
                     <li class="nav-item">
-						<a class="nav-link" href="logout.php">LOGOUT</a>
-					</li>               
+                        <a class="nav-link" href="signin.php">SIGN IN</a>
+                    </li>                
                 </ul>
             </div>
         </div>
     </nav>
-
 
     <div id="data">
         <h3>NETWORTH CALCULATOR</h3>
