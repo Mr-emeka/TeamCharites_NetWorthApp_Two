@@ -4,8 +4,8 @@
 session_start();
  
 
-$con = mysqli_connect('sql12.freemysqlhosting.net','sql12307701', 'E5V4g1DbCE');
-mysqli_select_db($con, 'sql12307701');
+$con = mysqli_connect('sql12.freemysqlhosting.net','sql12308286', 'ZwVT4iplj3');
+mysqli_select_db($con, 'sql12308286');
 // $con = mysqli_connect('localhost','root');
 
 // $con = mysqli_connect('fdb22.awardspace.net','3177438_userregistration');
@@ -118,7 +118,7 @@ if(isset($_POST['submit'])){
                         <a class="nav-link" href="index.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT</a>
+                        <a class="nav-link" href="about.php">ABOUT</a>
                     </li>
                     <li class="nav-item">
 						<a class="nav-link" href="howto.html">TIPS</a>
@@ -148,18 +148,13 @@ if(isset($_POST['submit'])){
 
 			
 
-				<form id="log-in" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"  method="post" name="uform">
+                <form id="log-in" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"  method="post" name="uform">
                 <h3 class="text-center text-bold mt-3 mb-3" style="color: #00B300; font-weight: 800;">SIGN IN</h3>
 						<input type="text" name="username1" placeholder=" Username" value="" required >
-						 <div id="username1_error" style="color:red;"></div>
-					
-
-					
+                         <div id="username1_error" style="color:red;">
+                         </div>
 						<input type="password" name="password1" placeholder=" Password" required>
 						 <div id="pass1_error" style="color:red;"></div>
-
-					
-
 					<input id="login" name="submit" type="Submit"  value="Sign in">
                     
 
