@@ -39,14 +39,14 @@
                         <a class="nav-link" href="about.php">ABOUT</a>
                     </li>
                     <li class="nav-item">
-						<a class="nav-link" href="howto.html">TIPS</a>
+						<a class="nav-link" href="logout.php">LOGOUT</a>
 					</li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
 						<a class="nav-link" href="FAQ.html">FAQ</a>
-					</li>                                    
-                    <li class="nav-item">
+					</li>                                     -->
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="signin.php">SIGN IN</a>
-                    </li>                
+                    </li>                 -->
                 </ul>
             </div>
         </div>
