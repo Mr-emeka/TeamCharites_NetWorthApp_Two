@@ -126,9 +126,9 @@ if(isset($_POST['submit'])){
                     <li class="nav-item">
 						<a class="nav-link" href="FAQ.html">FAQ</a>
 					</li>                                    
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="signin.php">SIGN IN</a>
-                    </li>                
+                    </li>                 -->
                 </ul>
             </div>
         </div>
@@ -158,10 +158,10 @@ if(isset($_POST['submit'])){
 					<input id="login" name="submit" type="Submit"  value="Sign in">
                     
 
-					<div id="login-alert">
+					<!-- <div id="login-alert">
 						<p>Don't have an account?</p>
 						<button type="button" onclick="window.location.href='signup.php'" value="signup">Sign up</button>
-					</div>
+					</div> -->
 				</form>
 			</div>
 
